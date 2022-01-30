@@ -1,74 +1,104 @@
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
 }
 .row-content {
-  margin: 0px auto;
+  margin: 0px;
   padding: 50px 0px;
-  border-bottom: 1px ridge;
+  padding-left: 200px;
+  border-bottom: 0px ridge;
   min-height: 400px;
+  background-color: black;
 }
 .footer {
-  background-color: #D1C4E9;
+  color: white;
   margin: 0px auto;
   padding: 20px 0px;
-}
-.jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite;
 }
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f;
+  color: white;
 }
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
 }
-.navbar-dark {
-  background-color: #512DA8;
+.navbar-dark  {
+  background-color: black;
 }
-.tab-content {
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
+.navbar-nav > li{
+  padding-left:8px;
+  padding-right:8dpx;
+  text: white;
 }
-.carousel {
-  background: #512DA8;
+.padding-0{
+    padding-right:0;
+    padding-left:0;
 }
-.carousel .carousel-item {
-  height: 300px;
-}
-.carousel .carousel-item img {
+.centered {
   position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#carouselButton {
-  right: 0px;
+.center {
   position: absolute;
-  bottom: 0px;
-  z-index: 1;
+  padding-top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.modal-content {
-  border: 0px;
+.btns {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #8B0000;
+  color: white;
+  font-size: 16px;
+  padding: 8px 66px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
-.modal-content .modal-body {
-  background: #9575CD;
+.btns:hover {
+  background-color: red;
 }
-.modal-content .modal-header {
-  background: #512DA8;
-  color: floralwhite;
-  border: 0px;
+a{
+ color: floralwhite;
 }
-.modal-content .modal-header .close {
-  color: floralwhite;
+a:hover{
+  color:grey;
+  text-decoration: none;
 }
-bodys {
-  background: #9575CD;
+.footer-dark{
+  background-color:black;
+}
+.content{
+
+  background-color: #1f1f1f;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.cards{
+  padding: 40px 15px 0px 15px;
+  margin-bottom: 30px;
+}
+.menuitems {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.table>tbody>tr>td{
+    border:0px;
+  }
+.bottom{
+  border-bottom: 1px ridge;
 }
